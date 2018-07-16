@@ -1,0 +1,27 @@
+{
+  "name": "kizunacoin-witness",
+  "description": "Kizunacoin witness",
+  "author": "Kizunacoin",
+  "version": "0.1.7",
+  "main": "start.js",
+  "keywords": [
+    "witness",
+    "kizunacoin"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/KIZUNACOIN/kizunacoin-witness.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/KIZUNACOIN/kizunacoin-witness/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "core": "git+https://github.com/KIZUNACOIN/core.git",
+    "kizunacoin-headless": "git+https://github.com/KIZUNACOIN/kizunacoin-headless.git"
+  }
+}

@@ -1,0 +1,1 @@
+*/20 * * * * cd kizunacoin-witness; node check_daemon.js 1>>~/.config/kizunacoin-witness/check_daemon.log 2>>~/.config/kizunacoin-witness/check_daemon.err
